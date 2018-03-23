@@ -21,6 +21,10 @@ import java.util.Date;
         this.valorHora = valorHora;
         this.salario = calculaSalario (valorHora, cargaHoraria);
     }
+
+    public Professor(int cargaHoraria, float valorHora, float salario, String nome, String rg, String cpf, Date dataNascimento, int idade) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public float calculaSalario(float valorHora, float cargaHoraria){
         return valorHora * cargaHoraria;
     }
